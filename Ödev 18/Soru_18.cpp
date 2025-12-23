@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int baslangıc; //
-    int bitis;     
+    int baslangıc;
+    int bitis; 
     int sayi;
     cout<<"Baslangic degerini giriniz"<<endl<<"= "; //ekrana yazı yazdırır.
     cin >> baslangıc;                                       //kullanıcıdan 1 sayı alır.
