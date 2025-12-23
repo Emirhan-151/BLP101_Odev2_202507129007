@@ -1,0 +1,2 @@
+# BLP101_Odev2_202507129007
+BLP101 Ödev teslimi 
