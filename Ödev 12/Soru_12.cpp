@@ -2,12 +2,12 @@
 using namespace std;
 
 int main(){
-    int n;
+    int girdi;
     cout <<"toplamlarini istediginiz sayi = ";
-    cin >> n;
+    cin >> girdi;
     int toplam=0;
 
-    for(int i=0; i<=n; i++ ){   //kullanıcının girdiği değere gelene kadar i değerini 1 arttıran döngü.
+    for(int i=0; i<=girdi; i++ ){   //kullanıcının girdiği değere gelene kadar i değerini 1 arttıran döngü.
     
         toplam=toplam+i;
         
