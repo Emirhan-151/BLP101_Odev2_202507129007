@@ -4,11 +4,11 @@ using namespace std;
 
 int main() {
     int sayi;
-    int yedek;
+    int sayi2;
     int ters = 0;
     cout << "Bir sayi giriniz: ";
     cin >> sayi;
-    yedek = sayi;
+    sayi2 = sayi;
     int gecici = sayi;
     
     while (gecici > 0) {
@@ -18,10 +18,10 @@ int main() {
     }
 
     
-    if (ters == yedek) {
-        cout << yedek << " bir Palindrom sayidir.";
+    if (ters == sayi2) {
+        cout << sayi2 << " bir Palindrom sayidir.";
     } else {
-        cout << yedek << " bir Palindrom sayi degildir.";
+        cout << sayi2 << " bir Palindrom sayi degildir.";
     }
 
     return 0;
