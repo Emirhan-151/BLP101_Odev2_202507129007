@@ -2,14 +2,14 @@
 using namespace std; 
 
 int main(){
-    int a;
+    int sayi;
     cout <<"Bir sayı giriniz = "; //consol'a "Bir sayı giriniz = " yazdırır.
-    cin >> a ; //kullanıcıdan bir sayı alır.
-    if (a%3 == 0 && a%7 == 0) //sayı 3'e ve 7'ye tam bölünüyor ise bu şart kullanlılır.
+    cin >> sayi ; //kullanıcıdan bir sayı alır.
+    if (sayi%3 == 0 && sayi%7 == 0) //sayı 3'e ve 7'ye tam bölünüyor ise bu şart kullanlılır.
     {
         cout<<"-----------------"<<endl<<"Mukemmel Kat"; //şart sağlanıyor ise consola "mukemmel kat" yazdırır.
     }
-    else if (a%3 == 0 || a%7 == 0) //sayı 3'e veya 7'ye tam bölünüyor ise bu şart kullanılır.
+    else if (sayi%3 == 0 || sayi%7 == 0) //sayı 3'e veya 7'ye tam bölünüyor ise bu şart kullanılır.
     {
         cout<<"-----------------"<<endl<<"Kismi Kat"; //şart sağlanıyor ise consola "kismi kat" yazdırır.
     }
