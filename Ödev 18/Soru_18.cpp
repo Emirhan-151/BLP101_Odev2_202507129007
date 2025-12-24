@@ -12,7 +12,7 @@ int main() {
     cin >> bitis;                                       //kullanıcıdan 1 sayı alır.
     for(baslangıc; baslangıc<bitis; baslangıc++){        //verilen başlangıç ve bitiş verilerine göre döngü oluşturur.
         if(baslangıc%5 == 0){        //sayı 5 e kalansız bölünüyor ise...
-            cout<< baslangıc << " "; //ekrana kalansız bölünen sayıyı yazdırır.
+            cout<< baslangıc <<" "; //ekrana kalansız bölünen sayıyı yazdırır.
         }
 
 
