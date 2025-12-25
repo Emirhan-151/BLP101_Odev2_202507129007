@@ -21,5 +21,5 @@ int main() {
         sson = toplam;         //son sayıya toplamı atar.
     }
 
-    return 0;
+    return (0);
 }

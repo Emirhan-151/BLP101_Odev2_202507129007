@@ -25,5 +25,5 @@ int main() {
         cout <<"  "<< sayilar[i] << "      " << kareler[i] << "     " << kupler[i] << endl;  //ekrana metin yazdırır.
     }
 
-    return 0;
+    return (0);
 }

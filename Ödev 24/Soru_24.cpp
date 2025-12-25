@@ -30,5 +30,5 @@ int main() {
 
     cout <<"EBOB" <<" : "<< ebob <<endl; //ekrana metin yazdirir.
 
-    return 0;
+    return (0);
 }
