@@ -28,7 +28,7 @@ int main() {
         }
     }
 
-    cout <<"EBOB"<<" : "<< ebob <<endl; //ekrana metin yazdirir.
+    cout <<"EBOB" <<" : "<< ebob <<endl; //ekrana metin yazdirir.
 
     return 0;
 }

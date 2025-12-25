@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int sayi;
-    cout << "Yazdirmak istediginiz sayiyi giriniz : "; //Ekrana metin yazdırır.
+    cout <<"Yazdirmak istediginiz sayiyi giriniz : "; //Ekrana metin yazdırır.
     cin >> sayi;                     //Kullanıcıdan sayı alır.
 
     int sayilar[sayi]={};   //sayılar dizisini tanımlar.

@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int sayi1;
-    cout << "Fibonacci serisinde kac sayi olsun? :  "; //Ekrana metin yazdırır.
+    cout <<"Fibonacci serisinde kac sayi olsun? :  "; //Ekrana metin yazdırır.
     cin >> sayi1;                    //Kullanıcıdan sayı alır.
 
     int silk = 0;  //ilk sayı
